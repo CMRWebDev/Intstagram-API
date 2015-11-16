@@ -20,10 +20,23 @@ body {
 	background: #00B938;
 }
 
-.info {
+.state_getter {
 	text-align: center;
 }
 
-.info form {
-	
+.state_getter form {
+
 }
+
+.hidden {
+	display: none;
+}
+
+.results {
+	border: 1px black solid;
+	padding: 5x;
+}
+
+FF7144
+
+FCA335

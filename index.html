@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>StartUps Near You</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,700' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="apps/app.js"></script>
+
 </head>
 <body>
 	<div class="container">
-		<div class="main_title">
-			<h1>StartUps Near You</h1>
-		</div>
-		<div class="user_info">
+		
+	   <div class="user_info">
 			<div class="intro">
 				<p>This app uses the US census API to show the number pf starups that was created in the past 12 months by state</p>
 				<p>Enter your state in the from below to how many companies were started in the past 12 months</p>
 			</div>
-			<div class="info">
-				<form class="state_entry" onsubmit="return false;">
+			<div class="tag_getter">
+				<form class="tag_entry" onsubmit="return false;">
 					<input type="text" placeholder='e.g., "Florida"' name="userState" size="30" autofocus required>
 					<input type="submit" value="Submit"> 
 				</form>
@@ -27,7 +28,7 @@
 			<div class="search_results"></div>
 			<div class="results"></div>
 		</div>	
-		<div class=" tempates hidden">
+		<div class="tempates hidden">
 			<dt></dt>	
 				<dd></dd>
 			<dt></dt>	
@@ -38,12 +39,11 @@
 				<dd></dd>
 			<dt></dt>	
 				<dd></dd>
-			
+			<div class="error">
+		 		 <p>Whoops! Something went wrong with your request. Here is what we knwow:</p>
+			</div>
 		</div>
-		<div class="error">
-		  <p>Whoops! Something went wrong with your request. Here is what we knwow:</p>
-			
-		</div>
+		
 	</div>	
 
 </body>
