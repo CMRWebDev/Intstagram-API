@@ -1,24 +1,25 @@
 $(function() {
-	$('tag_getter').submit(function(){
+	//$('tag_getter').submit(function(){
 		// clears results if previous search has run
-		$('.results').html('');
+		//$('.results').html('');
 		// get the value of the tags the user submits
-		var 
-	});
+		
+	//});
 
 	$('.popular-button').on("click", "#pop", function(){
 		
-
+		
 		// run function that gets jax and displays data
 		// function takes the tag and popular as params
 		getRecent();
 	});
 
 	$('.recent-button').on("click", "#rec", function(){
-		alert();
+		
 		// execute function that gets AJAX and displays data
 		// function takes the  tag and recent
 		getRecent();
+		
 	});
 
 	
@@ -30,15 +31,13 @@ $(function() {
 
 
 
-var tag_name = 
-var search_type = "recent";
-
+//https://api.instagram.com/v1/tags/trucks/media/recent?access_token=190034554.9e869c1.ec7b0eafa1f2499b98a0d4d0823fdfc8
 
 
 
 
 function getRecent() {
-	var tag_name = "trucks";
+	var tag_name = document.getElementById("tags").value;
 	var search_type = "recent";
 
 		$.ajax({
