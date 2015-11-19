@@ -1,3 +1,8 @@
+
+html {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Source Code Pro', ;
 }
@@ -20,23 +25,15 @@ body {
 	background: #00B938;
 }
 
-.state_getter {
-	text-align: center;
-}
-
-.state_getter form {
-
-}
-
-.hidden {
-	display: none;
-}
 
 .results {
 	border: 1px black solid;
 	padding: 5x;
 }
 
-FF7144
-
-FCA335
+.results li {
+	display: inline-block;
+	 width: 306px;
+  height: 306px;
+  margin: 0px 20px 20px 0px;
+}
