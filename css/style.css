@@ -5,6 +5,7 @@ html {
 
 body {
 	font-family: 'Source Code Pro', ;
+	background-color: #F65B26;
 }
 .main_title {
 	background: #037A9C;
@@ -17,12 +18,60 @@ body {
 	padding-top: 50px;
 }
 
+.instructions {
+	padding-top: 20px;
+}
+.intro {
+	background-color: #206C9D; 
+	height: 220px;
+	color: white;
+	text-align: center;
+}
+
 .intro p {
 	margin-top: 0;
+	font-size: 20px;
+}
+
+#tags {
+	border-radius: 10px;
+    background-color: honeydew;
+    font-size: larger;
+    
+}
+
+#recent {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: .33;
+  width: 9.688rem;
+  background-color: #F6BF26;
+  font-size: 1.125rem;
+  color: white;
+  display: block;
+  margin:0 auto;
+  margin-top: 22px;
+  
+}
+#recent:hover {
+	background-color: #CE9A08;
+    border-color: #cf3d0e;
+	cursor: pointer;
 }
 
 .user_info {
 	background: #00B938;
+}
+
+.tag_getter {
+	text-align: center;
+
+}
+
+.recent-button {
+	text-align: center;
 }
 
 
@@ -33,7 +82,8 @@ body {
 
 .results li {
 	display: inline-block;
-	 width: 306px;
-  height: 306px;
-  margin: 0px 20px 20px 0px;
+	width: 306px;
+  	height: 306px;
+  	margin: 0px 20px 20px 0px;
 }
+

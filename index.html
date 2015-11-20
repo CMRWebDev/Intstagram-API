@@ -11,15 +11,18 @@
 </head>
 <body>
 	<div class="intro">
-		<p>This app uses the US census API to show the number pf starups that was created in the past 12 months by state</p>
-		<p>Enter your state in the from below to how many companies were started in the past 12 months</p>
-	</div>
+	<div class="instructions">
+		<p> Type in a tag to see the most recent post.
+		<p>('#' is requiered)</p>
+	</div>	
 		<div class="tag_getter">
 			<input type="text" placeholder='e.g., "Florida"' id="tags" name="tags" size="30" autofocus required>
 		</div>	
+		
 		<div class="recent-button">
-            <button id="rec" type="button">Recent</button>
+            <button id="recent" type="button">Recent</button>
         </div>
+    </div>
 	<div id="results_contianer">
 		<div class="results"></div>
 	</div>	
