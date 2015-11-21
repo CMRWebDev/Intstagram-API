@@ -23,17 +23,10 @@ $(function() {
 	});
 
 	
-
-	// on click pupular
-	// gets popular post 
-	//GET PUPLAR
-
-
+});
 
 
 //https://api.instagram.com/v1/tags/trucks/media/recent?access_token=190034554.9e869c1.ec7b0eafa1f2499b98a0d4d0823fdfc8
-
-
 
 
 function getRecent() {
@@ -54,5 +47,5 @@ function getRecent() {
 
 	};
 
-});
+
 
