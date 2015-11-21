@@ -6,16 +6,10 @@ $(function() {
 		
 	//});
 
-	$('.popular-button').on("click", "#pop", function(){
-		
-		
-		// run function that gets jax and displays data
-		// function takes the tag and popular as params
-		getRecent();
-	});
 
 	$('.recent-button').on("click", "#recent", function(){
-		
+		// clears page from recent search data
+		$('.results').html('');
 		// execute function that gets AJAX and displays data
 		// function takes the  tag and recent
 		getRecent();

@@ -25,6 +25,9 @@ body {
 	height: 220px;
 	color: white;
 	text-align: center;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
 }
 
 .intro p {
@@ -52,6 +55,9 @@ body {
   display: block;
   margin:0 auto;
   margin-top: 22px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
   
 }
 #recent:hover {
@@ -78,9 +84,8 @@ body {
 	margin-top: 30px;
 }
 .results {
-	border: 1px black solid;
-	
 	text-align: center;
+	padding: 0;
 }
 
 .results li {
@@ -94,9 +99,92 @@ body {
 img {
 	border: 6px solid #206C9D;
 	margin: 0 auto;
-	opacity: 0.8;
+	opacity: 0.85;
 }
 
 img:hover {
 	opacity: 1;
 }
+
+/**
+ * Responsive Design
+ */
+ @media only screen and (max-width: 1054px) {
+    .masthead {
+      padding: 3em 0;
+    }
+    .intro p {
+        font-size: 14px;
+    }
+    .results li {
+  
+	width: 210px;
+  	height: 210px;
+  	margin: 0px 15px 15px 0px;
+  	padding: 5px;
+    }
+    img {
+      width: 200px;
+      height: 200px
+    }
+  
+}
+@media only screen and (max-width: 700px) {
+    .masthead {
+      padding: 3em 0;
+    }
+    .intro p {
+        font-size: 14px;
+    }
+    .results li {
+  
+	width: 154px;
+  	height: 154px;
+  	margin: 0px 10px 10px 0px;
+  	padding: 5px;
+    }
+    img {
+      width: 150px;
+      height: 150px
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
